@@ -67,7 +67,7 @@ option(HYPRE_WITH_DSUPERLU           "Use TPL SuperLU_Dist" OFF)
 option(HYPRE_WITH_CALIPER            "Use Caliper" OFF)  # TODO: Finish this cmake feature
 option(HYPRE_PRINT_ERRORS            "Print HYPRE errors" OFF)
 option(HYPRE_TIMING                  "Use HYPRE timing routines" OFF)
-option(HYPRE_BUILD_EXAMPLES          "Build examples" OFF)
+option(HYPRE_BUILD_EXAMPLES          "Build examples" ON)
 option(HYPRE_BUILD_TESTS             "Build tests" OFF)
 option(HYPRE_USING_HOST_MEMORY       "Use host memory" ON)
 
